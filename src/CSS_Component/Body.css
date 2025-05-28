@@ -1,0 +1,77 @@
+/* Outer container */
+.body-list {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Message when no data is found */
+.body-list h1 {
+  color: #d9534f;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Grid layout */
+.restaurant-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+/* Restaurant card */
+.restaurant-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image section */
+.restaurant-card-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Text content */
+.restaurant-card-data {
+  padding: 16px;
+  text-align: left;
+}
+
+.restaurant-card-data h1 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.restaurant-card-data h2 {
+  font-size: 14px;
+  color: #666;
+  margin: 4px 0;
+  font-weight: 400;
+}
+.cuisines-btn {
+  text-decoration: underline;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: darkblue;
+  font-weight: 500;
+}

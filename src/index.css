@@ -1,0 +1,36 @@
+body {
+  position: relative;
+  margin: 0px;
+}
+.show-btn {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.context-kingcafe {
+  text-align: center;
+  font-size: smaller;
+  font-weight: 20;
+}
+/* .head-section {
+  border: 0px solid;
+  display: flex;
+}
+.head-logo-img {
+  width: 250px;
+}
+.nav-bar {
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nav-bar-ul {
+  list-style-type: none;
+  display: flex;
+  padding: 10px 20px;
+  gap: 20px;
+  justify-content: flex-end;
+  font-size: larger;
+  font-weight: 600;
+} */

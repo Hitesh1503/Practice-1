@@ -1,0 +1,17 @@
+.error {
+  text-align: center;
+  padding: 100px 20px;
+  color: #b00020;
+  background-color: #fff0f0;
+  font-family: Arial, sans-serif;
+}
+
+.error h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.error h2 {
+  font-size: 24px;
+  font-weight: normal;
+}

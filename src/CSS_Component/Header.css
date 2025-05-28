@@ -1,0 +1,104 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.head-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.head-logo {
+  flex: 1;
+}
+.head-logo-img {
+  height: 150px;
+  width: auto;
+}
+
+/* Search bar */
+.search-bar {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.search-input input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+}
+.search-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #ff6347;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.search-btn:hover {
+  background-color: #e5533d;
+}
+
+/* Navigation bar */
+.nav-bar {
+  flex: 2;
+}
+.nav-bar-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-bar-ul a {
+  color: inherit; /* Inherits the parent text color */
+  text-decoration: none; /* Removes underline */
+}
+
+.nav-bar-ul a:hover {
+  color: #ff6600; /* Optional: Add hover color */
+}
+
+.nav-bar-li {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+.nav-bar-li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Login/Logout button */
+.log-btn {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.log-btn button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.log-btn button:hover {
+  background-color: #0056b3;
+}
