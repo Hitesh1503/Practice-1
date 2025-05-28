@@ -19,6 +19,7 @@ import { UserContext } from "./CSS_Component/utils/userContext.js";
 const About = lazy(() => import("./Components/About"));
 const Contact = lazy(() => import("./Components/Contact.js"));
 
+//app
 const App = () => {
   const [text, setText] = useState("");
   const [emptyData, setEmptyData] = useState("");
